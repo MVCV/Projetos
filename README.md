@@ -1,2 +1,0 @@
-# Projetos
-Primeiro projeto - Python

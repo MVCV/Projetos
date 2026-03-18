@@ -1,0 +1,26 @@
+# Meu primeiro programa
+
+# Titulo
+print("Calculadora Simples")
+
+#Imputs e limites
+
+n1 = float(input('Digite o primeiro numero do calculo:'))
+operacao = input('Digite a operação desejada, sendo: **, *, /, +, -:')
+n2 = float(input('Digite o segundo numero do calculo:'))
+
+# Operações 
+
+if operacao == "*":
+    resultado = n1 * n2 
+if operacao == "/":
+    resultado = n1 / n2 
+if operacao == "+":
+    resultado = n1 + n2 
+if operacao == "-":
+    resultado = n1 - n2 
+if operacao == "**":
+    resultado = n1 ** n2
+
+# Resposta
+print (f'Resultado: {resultado}')
