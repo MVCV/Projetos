@@ -1,0 +1,8 @@
+# Meu segundo programa, validação de login
+
+usuario = input("Digite o seu usuario: ")
+senha = input("Digite o sua senha: ")
+
+log_val = usuario == "adm" and senha == "123"
+
+print(f'login valido: {log_val}')
