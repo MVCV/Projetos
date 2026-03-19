@@ -1,0 +1,10 @@
+# Jogo de adivinhar 
+
+print('Descubra que número estou pensando de 1 a 10?')
+
+numero = int(input('Digite um número: '))
+
+if numero == 10:
+    print('Acertou')
+else:
+    print('Errou, tente de novo xP')
