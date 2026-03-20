@@ -1,0 +1,13 @@
+# Checkpoint para menores de 18 anos
+
+idade = int(input("Qual a sua idade: "))
+autorizacao = input("Seus pais autorizao" "(s/n): ")
+
+if idade >= 18:
+    print("Acesso concedido!")
+elif idade >= 16 and autorizacao == "s":
+    print("Acesso autorizado pelos Pais!")
+elif idade >= 16 and autorizacao == "n":
+    print("Acesso não autorizado pelos Pais!")
+else:
+    print("Acesso negado")    
