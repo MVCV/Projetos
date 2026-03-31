@@ -1,4 +1,4 @@
-# Calcular desconto percentual (utilizando a criação de função e input)
+# Calcular desconto percentual (utilizando função)
 
 def calcular_desconto (preco, porcentagem):
     return preco - (preco * porcentagem / 100)
