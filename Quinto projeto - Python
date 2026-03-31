@@ -1,0 +1,11 @@
+# Calcular desconto percentual (utilizando a criação de função e input)
+
+def calcular_desconto (preco, porcentagem):
+    return preco - (preco * porcentagem / 100)
+    
+preco = float(input('Digite o preço R$: '))
+porcentagem = float(input('Digite o desconto percentual R$: '))
+
+resultado = calcular_desconto(preco, porcentagem)
+
+print(f'O valor final com desconto é de R$: {resultado:.2f}')
